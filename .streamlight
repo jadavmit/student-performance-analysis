@@ -1,0 +1,13 @@
+# Streamlit's own widgets (tables, inputs, buttons, tabs) use the native theme.
+# Pin it so the dashboard looks the same on every machine instead of following
+# the operating-system light/dark setting. The app's Dark/Light switch then
+# re-colours everything with CSS on top of this baseline.
+[theme]
+base = "light"
+primaryColor = "#3B76F0"
+backgroundColor = "#F3F6FC"
+secondaryBackgroundColor = "#EAF0FA"
+textColor = "#15223B"
+
+[browser]
+gatherUsageStats = false
